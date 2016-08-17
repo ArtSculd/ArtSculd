@@ -1,10 +1,14 @@
 body {
 	background: lightgrey;
-	font: 1em 'PT Sans', Arial, Helvetica, sans-serif;
+	font-family: 'Marck Script', cursive;
 	
 }
 header{
 	text-align: center;
 	text-shadow: 0 1px 0 rgba(255,255,255,.8);
 	border: 1px solid grey;
+}
+
+h4{
+	font-size: 30px;
 }

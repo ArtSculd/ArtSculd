@@ -1,53 +1,19 @@
 body {
-	background: linear-gradient(to right, rgba(245,246,246,1) 0%,rgba(219,220,226,1) 25%,rgba(184,186,198,1) 50%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%);}
+	background: linear-gradient(to right, rgba(245,246,246,1) 0%,rgba(219,220,226,1) 25%,rgba(184,186,198,1) 50%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%);
+	font-family: 'Marck Script', cursive;
+}
 h1{
 	height: 50px;
- 	color: maroon;
+ 	color: rgb(30, 23, 232);
  	text-align: center;
+ 	font-size: 50px;
 	}
 nav{
   color: grey;
   border: 1px solid black;
   padding: 10px;
   text-align: right;
+  font-size: 20px;
 }
 
-a: {
-  color: green;
-}
 
-@font-face{
-	font-family:'NoticeStd';
-	src: url('NoticeStd.otf');
-	src: url(NoticeStd.otf) format('otf');
-	font-weight: normal;
-	font-style: normal;
-}
-
-.block{
-	background: white;
-	border-radius: 5px;
-	box-shadow: 0 3px 20px rgba(0,0,0,.2);
-	border-top: 1px solid rgba(255,255,255,.7);
-}
-
-.button{
-	text-shadow: 0 1px 0 white;
-	width: 60px;
-	height: 60px;
-	font: 2px 'NoticeStd';
-	display: inline;
-	margin: 5px;
-	text-align: center;
-	line-height: 49px;
-	color: #333;
-	border-radius: 3px;
-	transition: all .5s;
-}
-.button:hover{
-	color: #eee;
-	background: #333;
-	cursor: pointer;
-	text-shadow: none;
-	transform: scale(1.2);
-}
