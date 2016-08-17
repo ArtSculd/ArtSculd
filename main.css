@@ -17,14 +17,15 @@ a: {
 }
 
 @font-face{
-	font-family: 'NoticeStd';
+	font-family:'NoticeStd';
+	src: url('NoticeStd.otf');
 	src: url(NoticeStd.otf) format('otf');
 	font-weight: normal;
 	font-style: normal;
 }
 
 .block{
-	background: yellow;
+	background: white;
 	border-radius: 5px;
 	box-shadow: 0 3px 20px rgba(0,0,0,.2);
 	border-top: 1px solid rgba(255,255,255,.7);
