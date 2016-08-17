@@ -1,11 +1,10 @@
 body {
-  background: grey
-}
-
+	background: linear-gradient(to right, rgba(245,246,246,1) 0%,rgba(219,220,226,1) 25%,rgba(184,186,198,1) 50%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%);}
 h1{
-  color: maroon;
-  text-align: center;
-}
+	height: 100px;
+ 	color: maroon;
+ 	text-align: center;
+	}
 nav{
   color: grey;
   border: 1px solid black;
